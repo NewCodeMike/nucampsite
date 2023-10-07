@@ -33,6 +33,9 @@
     <header>
       <div class="container">
         <div class="row">
+          <div class="col-4 col-sm-4 col-md-2 align-self-center">
+            <img src="./img/logo.png" class="img-fluid" alt="logo">
+          </div>
           <div class="col">
             <h1>Nucamp</h1>
             <h2>a better way to camp</h2>
@@ -44,8 +47,9 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
       <div class="container">
+        <a class="navbar-brand" href="#"><img src="./img/logo.png" height="30" width="30"></a>
         <button
-          class="navbar-toggler ms-auto"
+          class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#nucampNavbar"
@@ -71,17 +75,20 @@
 
     <!-- main section -->
     <main class="container">
-      <!-- disocver section -->
+
+      <!-- discover section -->
       <section class="row row-content align-items-center">
         <div class="col-sm-4 col-md-3 order-sm-last">
           <h2 class="text-sm-end">Discover & Review</h2>
         </div>
         <div class="col">
-          <h3>Our Campsites</h3>
-          <p class="d-none d-sm-block">
-            Explore our growing database of curated campsites and leave your own
-            reviews!
-          </p>
+          <div class="d-flex">
+            <img class="me-3 img-thumbnail" src="./img/breadcrumb-trail-thumb.jpg"  alt="Breadcrumb trail">
+            <div>
+              <h3>Our Campsites</h3>
+              <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -106,11 +113,15 @@
           <h2 class="text-sm-end">Our Community Partners</h2>
         </div>
         <div class="col">
-          <h3>Bootstrap Ourfitters</h3>
-          <p class="d-none d-sm-block">
-            Bootstrap Outfitters supplies you with gear you need at prices you
-            can't beat.
-          </p>
+          <div class="col">
+            <div class="d-flex">
+              <img class="me-3 img-thumbnail" src="./img/bootstrap-thumb.png"  alt="Bootstrap Outfitters">
+              <div>
+                <h3>Bootstrap Ourfitters</h3>
+                <p class="d-none d-sm-block"> Bootstrap Outfitters supplies you with gear you need at prices youcan't beat.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

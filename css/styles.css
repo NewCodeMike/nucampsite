@@ -35,6 +35,6 @@ footer {
     background-color: #901CAD;
 }
 
-/* .navbar-custom {
-    background-image: linear-gradient(to right, #60106B, #3046C5, #5637DD);
-} */
+.accordion-button {
+    background-color: #d3d3d3;
+}

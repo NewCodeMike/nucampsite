@@ -1,0 +1,26 @@
+{
+  "name": "nucampsite",
+  "version": "1.0.0",
+  "description": "A fictional campsites review website.",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewCodeMike/nucampsite.git"
+  },
+  "keywords": [],
+  "author": "Michael Lansing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NewCodeMike/nucampsite/issues"
+  },
+  "homepage": "https://github.com/NewCodeMike/nucampsite#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "bootstrap": "^5.2.3",
+    "parcel": "^2.10.0"
+  }
+}

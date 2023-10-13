@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster%7cOpen+Sans" />
     <link rel="stylesheet" href="./css/styles.scss" />
     <title>Nucamp: A Better Way To Camp</title>
   </head>
@@ -106,7 +106,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
       <div class="modal-dialog modal-lg" role="dialog">
         <div class="modal-content">
-          <div class="modal-header bg-info text-white">
+          <div class="modal-header">
             <h3 class="modal-title">Reserver a Campsite</h3>
             <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
           </div>
@@ -130,7 +130,7 @@
                 <div class="row mb-3">
                   <label class="col-sm-6 col-form-label" for="date">Date</label>
                   <div class="col">
-                    <input type="date" name="date" id="date" placeholder="mm/dd/yyyy" class="form-control" />
+                    <input type="date" name="date" id="date" class="form-control" />
                   </div>
                 </div>
                 <div class="row mb-3">
@@ -241,6 +241,21 @@
           </div>
         </div>
       </section>
+      <div class="row row-content align-items-start review-section mb-3">
+        <div class="col-sm-4 col-md-3 order-sm-first">
+          <h2>What Are Happy Campers Saying?</h2>
+        </div>
+        <div class="col ms-lg-5">
+          <img src="./img/happy-campers.jpg" class="img-fluid img-thumbnail" alt="">
+        </div>
+        <div class="col">
+          <h3>So Worth It!</h3>
+          <p>"We had a blast as we embarked on a wild adventure amidst nature's embrace, where s'mores and laughter under starlit skies became our daily ritual, creating memories that will last us forever."</p>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+          <button class="campsite-btn">Reserver Campsite</button>
+        </div>
+      </div>
     </main>
 
     <!-- footer -->
